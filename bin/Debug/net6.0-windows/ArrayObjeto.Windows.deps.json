@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ArrayObjeto.Windows/1.0.0": {
+        "dependencies": {
+          "ArrayObjeto.Datos": "1.0.0",
+          "ArrayObjeto.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "ArrayObjeto.Windows.dll": {}
+        }
+      },
+      "ArrayObjeto.Datos/1.0.0": {
+        "dependencies": {
+          "ArrayObjeto.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "ArrayObjeto.Datos.dll": {}
+        }
+      },
+      "ArrayObjeto.Entidades/1.0.0": {
+        "runtime": {
+          "ArrayObjeto.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArrayObjeto.Windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayObjeto.Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayObjeto.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ArrayRadio.Windows/1.0.0": {
+        "dependencies": {
+          "ArrayRadio.Datos": "1.0.0",
+          "ArrayRadio.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "ArrayRadio.Windows.dll": {}
+        }
+      },
+      "ArrayRadio.Datos/1.0.0": {
+        "dependencies": {
+          "ArrayRadio.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "ArrayRadio.Datos.dll": {}
+        }
+      },
+      "ArrayRadio.Entidades/1.0.0": {
+        "runtime": {
+          "ArrayRadio.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArrayRadio.Windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayRadio.Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayRadio.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
